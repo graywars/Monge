@@ -1,0 +1,50 @@
+table
+{
+	width: 100%;
+}
+.col1, .col2, .col3, .col4, th
+{
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+td
+{
+	height: 40px;
+}
+.col1
+{
+	width: 50%;
+}
+.col2, .col3
+{
+	width: 10%;
+}
+.col4
+{
+	width: 30%;
+}
+.section
+{
+	margin-left: 20px;
+}
+.creasuj, .creamess
+{
+	display: none;
+}
+.title_file
+{
+	display: inline-block;
+	padding: 4px;
+	cursor: pointer;
+	box-sizing: border-box;
+	border: 1px solid black;
+	background: #DBDBDB;
+}
+.zone_file
+{
+	padding: 20px;
+	display: none;
+	box-sizing: border-box;
+	border: 1px solid black;
+	background: #E5E5E5;
+}
