@@ -73,7 +73,7 @@ if($_SESSION['connect'] == "1")
 								<input type="hidden" name="sujet" value="<?php echo $_GET['suj']; ?>" />
 								<p>
 									<label for="message"> écrivez votre message ici</label><br>
-									<textarea name="message" id="prmess"></textarea>
+									<textarea class="zone_message" name="message" id="prmess"></textarea>
 								</p>
 								<p>
 									<input type="submit" name="valider" value="valider" />
@@ -139,7 +139,7 @@ if($_SESSION['connect'] == "1")
 								</p>
 								<p>
 									<label for="message">écrivez votre message ici</label><br>
-									<textarea name="message" id="prmess"></textarea>
+									<textarea class="zone_message" name="message" id="prmess"></textarea>
 								</p>
 								<p>
 									<input type="submit" name="envoyer" value="envoyer"/>

@@ -27,6 +27,8 @@ if(!empty($_POST['Connexion']) && $_POST['Connexion'] == 'Connexion')
 				$data = $req->fetch();
 				$_SESSION['id'] = $data['id'];
 				$_SESSION['connect'] = "1";
+				$date_connect = date('d/m/Y_H:i:s');
+				$req = $bdd->exec('UPDATE user SET date_connect = "'.$date_connect.'" WHERE id = "'.$data['id'].'"');
 				echo "<meta http-equiv='Refresh' content='0;URL=forum.php' />";
 			}
 			else

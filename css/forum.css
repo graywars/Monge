@@ -48,3 +48,8 @@ td
 	border: 1px solid black;
 	background: #E5E5E5;
 }
+.zone_message
+{
+	width:	530px;
+	height: 160px;
+}

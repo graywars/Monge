@@ -24,7 +24,7 @@ if(!empty($_POST['Inscrire']) && $_POST['Inscrire'] == 'Inscrire')
 						$prenom = ucfirst($prenom);
 						$pass = sha1($_POST['pass']);
 						$pass = md5($pass);
-						$req = $bdd->exec('INSERT INTO user VALUES("", "'.$nom.'", "'.$prenom.'", "'.$login.'", "'.$pass.'", "0")');
+						$req = $bdd->exec('INSERT INTO user VALUES("", "'.$nom.'", "'.$prenom.'", "'.$login.'", "'.$pass.'", "0", "0")');
 						$error = "Inscription réussit";
 						echo "<meta http-equiv='Refresh' content='2;url=index.php' />";
 					}
